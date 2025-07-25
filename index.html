@@ -3,89 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deploy with Animation - Premium Landing Page</title>
+    <title>NeuroGarden - AI-Powered Urban Farming Revolution</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">AnimateLand</span>
+            <div class="logo">
+                <span class="logo-icon">🌱</span>
+                <span class="logo-text">NeuroGarden</span>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#problem" class="nav-link">Problem</a>
+                <a href="#solution" class="nav-link">Solution</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#team" class="nav-link">Team</a>
+                <button class="nav-cta">Get Started</button>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
-        </div>
-        
-        <div class="floating-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-            <div class="shape shape-4"></div>
-            <div class="shape shape-5"></div>
-        </div>
-
-        <div class="particles-container">
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-        </div>
-
-        <div class="hero-content">
-            <div class="hero-badge">
-                <span class="badge-text">✨ New Release</span>
+    <section id="hero" class="hero-section">
+        <div class="background-animation"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Growing Tomorrow's</span>
+                    <span class="title-line animated-text">Food Today</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Revolutionary AI-powered vertical farms that produce 95% more food 
+                    using 90% less water, right in the heart of your city.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">365</div>
+                        <div class="stat-label">Days Growing</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Less Water</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10x</div>
+                        <div class="stat-label">Faster Growth</div>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <button class="cta-primary">Join the Revolution</button>
+                    <button class="cta-secondary">Watch Demo</button>
+                </div>
             </div>
-            <h1 class="hero-title">
-                <span class="title-line">Deploy with</span>
-                <span class="title-line gradient-text">Animation</span>
-            </h1>
-            <p class="hero-description">
-                Experience the future of web development with our cutting-edge animation framework. 
-                Create stunning, performant websites that captivate your audience and drive engagement.
-            </p>
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary">
-                    <span>Get Started</span>
-                    <div class="btn-shine"></div>
-                </a>
-                <a href="#" class="btn btn-secondary">
-                    <span>Watch Demo</span>
-                    <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M8 5v14l11-7z"/>
-                    </svg>
-                </a>
+            
+            <div class="floating-elements">
+                <div class="floating-element element-1">🌿</div>
+                <div class="floating-element element-2">🤖</div>
+                <div class="floating-element element-3">💧</div>
+                <div class="floating-element element-4">🌱</div>
             </div>
         </div>
+    </section>
 
-        <div class="scroll-indicator">
-            <div class="scroll-arrow"></div>
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title slide-in-title">The Crisis We Face</h2>
+                <p class="section-subtitle">Traditional agriculture is failing our growing world</p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">🌍</div>
+                    <h3>Population Explosion</h3>
+                    <p>By 2050, we'll need to feed 9.7 billion people with 70% more food production</p>
+                    <div class="problem-stat">+2.3B people</div>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">💧</div>
+                    <h3>Water Scarcity</h3>
+                    <p>Agriculture consumes 70% of global freshwater while supplies dwindle rapidly</p>
+                    <div class="problem-stat">70% usage</div>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">🏙️</div>
+                    <h3>Urban Migration</h3>
+                    <p>68% of people will live in cities by 2050, far from traditional farmland</p>
+                    <div class="problem-stat">68% urban</div>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">🌡️</div>
+                    <h3>Climate Change</h3>
+                    <p>Extreme weather destroys crops and makes traditional farming unpredictable</p>
+                    <div class="problem-stat">30% crop loss</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2 class="section-title">The NeuroGarden Solution</h2>
+                    <p class="solution-description">
+                        Our AI-powered vertical farms use advanced neural networks to create 
+                        the perfect growing environment for each plant, maximizing yield while 
+                        minimizing resource consumption.
+                    </p>
+                    
+                    <div class="solution-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🧠</span>
+                            <div>
+                                <h4>Neural Network Optimization</h4>
+                                <p>AI analyzes millions of data points to optimize growth conditions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <span class="feature-icon">🏢</span>
+                            <div>
+                                <h4>Vertical Integration</h4>
+                                <p>Grow 100x more food in the same footprint as traditional farms</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <span class="feature-icon">♻️</span>
+                            <div>
+                                <h4>Closed-Loop System</h4>
+                                <p>Zero waste, 95% water recycling, and renewable energy powered</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="solution-visual">
+                    <div class="tech-showcase">
+                        <div class="tech-layer layer-1">
+                            <div class="data-point">💡 LED Spectrum</div>
+                            <div class="data-point">🌡️ Temperature</div>
+                            <div class="data-point">💨 Humidity</div>
+                        </div>
+                        <div class="tech-layer layer-2">
+                            <div class="neural-network">
+                                <div class="node"></div>
+                                <div class="node"></div>
+                                <div class="node"></div>
+                                <div class="connection"></div>
+                                <div class="connection"></div>
+                            </div>
+                        </div>
+                        <div class="tech-layer layer-3">
+                            <div class="growth-indicator">📈 Growth Rate: +340%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -93,100 +181,156 @@
     <section id="features" class="features-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Powerful Features</h2>
-                <p class="section-subtitle">Everything you need to create amazing animated experiences</p>
+                <h2 class="section-title">Revolutionary Features</h2>
+                <p class="section-subtitle">Technology that's changing the future of food</p>
             </div>
             
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <div class="icon-animation icon-1"></div>
+                    <div class="feature-header">
+                        <div class="feature-icon-large">🤖</div>
+                        <h3>AI-Powered Growth</h3>
                     </div>
-                    <h3 class="feature-title">Lightning Fast</h3>
-                    <p class="feature-description">Optimized animations that run at 60fps with minimal resource usage</p>
+                    <p>Our neural networks learn from every plant, continuously optimizing growing conditions for maximum yield and nutrition.</p>
+                    <div class="feature-metrics">
+                        <span class="metric">+340% yield</span>
+                        <span class="metric">24/7 monitoring</span>
+                    </div>
                 </div>
                 
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <div class="icon-animation icon-2"></div>
+                    <div class="feature-header">
+                        <div class="feature-icon-large">💧</div>
+                        <h3>Water Intelligence</h3>
                     </div>
-                    <h3 class="feature-title">Responsive Design</h3>
-                    <p class="feature-description">Animations that adapt seamlessly across all devices and screen sizes</p>
+                    <p>Precision hydroponic systems deliver exactly the right nutrients at the perfect time, reducing water usage by 95%.</p>
+                    <div class="feature-metrics">
+                        <span class="metric">95% less water</span>
+                        <span class="metric">Zero runoff</span>
+                    </div>
                 </div>
                 
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <div class="icon-animation icon-3"></div>
+                    <div class="feature-header">
+                        <div class="feature-icon-large">🌈</div>
+                        <h3>Spectrum Optimization</h3>
                     </div>
-                    <h3 class="feature-title">Easy Integration</h3>
-                    <p class="feature-description">Simple API that integrates with any existing project in minutes</p>
+                    <p>Dynamic LED systems adjust light spectrums throughout the day, mimicking perfect natural conditions year-round.</p>
+                    <div class="feature-metrics">
+                        <span class="metric">Full spectrum</span>
+                        <span class="metric">365 days/year</span>
+                    </div>
                 </div>
                 
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <div class="icon-animation icon-4"></div>
+                    <div class="feature-header">
+                        <div class="feature-icon-large">📱</div>
+                        <h3>Smart Monitoring</h3>
                     </div>
-                    <h3 class="feature-title">Custom Animations</h3>
-                    <p class="feature-description">Create unique animations with our powerful customization tools</p>
+                    <p>Real-time dashboards and mobile apps let you monitor your farm from anywhere in the world.</p>
+                    <div class="feature-metrics">
+                        <span class="metric">Real-time data</span>
+                        <span class="metric">Mobile control</span>
+                    </div>
                 </div>
                 
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <div class="icon-animation icon-5"></div>
+                    <div class="feature-header">
+                        <div class="feature-icon-large">🌱</div>
+                        <h3>Crop Diversity</h3>
                     </div>
-                    <h3 class="feature-title">Cross Browser</h3>
-                    <p class="feature-description">Works perfectly across all modern browsers and platforms</p>
+                    <p>Grow over 200 different crops simultaneously, from leafy greens to strawberries, all in one system.</p>
+                    <div class="feature-metrics">
+                        <span class="metric">200+ crops</span>
+                        <span class="metric">Year-round harvest</span>
+                    </div>
                 </div>
                 
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <div class="icon-animation icon-6"></div>
+                    <div class="feature-header">
+                        <div class="feature-icon-large">⚡</div>
+                        <h3>Energy Efficient</h3>
                     </div>
-                    <h3 class="feature-title">Developer Friendly</h3>
-                    <p class="feature-description">Comprehensive documentation and excellent developer experience</p>
+                    <p>Solar-powered systems with battery storage ensure sustainable operation with minimal environmental impact.</p>
+                    <div class="feature-metrics">
+                        <span class="metric">100% renewable</span>
+                        <span class="metric">Carbon negative</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+    <!-- Impact Section -->
+    <section class="impact-section">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="about-title">Revolutionizing Web Animation</h2>
-                    <p class="about-description">
-                        We believe that great animations should be accessible to everyone. Our platform combines 
-                        cutting-edge technology with intuitive design to help you create experiences that truly 
-                        stand out from the crowd.
-                    </p>
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <div class="stat-number">50K+</div>
-                            <div class="stat-label">Developers</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">1M+</div>
-                            <div class="stat-label">Animations</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">99.9%</div>
-                            <div class="stat-label">Uptime</div>
-                        </div>
+            <div class="impact-content">
+                <h2 class="section-title">Global Impact</h2>
+                <p class="impact-description">
+                    NeuroGarden farms are already transforming communities worldwide
+                </p>
+                
+                <div class="impact-stats">
+                    <div class="impact-stat">
+                        <div class="impact-number pulsing-number">2.3M</div>
+                        <div class="impact-label">Pounds of food grown</div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="impact-number pulsing-number">847K</div>
+                        <div class="impact-label">Gallons of water saved</div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="impact-number pulsing-number">156</div>
+                        <div class="impact-label">Farms deployed</div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="impact-number pulsing-number">23</div>
+                        <div class="impact-label">Countries served</div>
                     </div>
                 </div>
-                <div class="about-visual">
-                    <div class="morphing-shape"></div>
-                    <div class="orbit-container">
-                        <div class="orbit orbit-1">
-                            <div class="orbit-dot"></div>
-                        </div>
-                        <div class="orbit orbit-2">
-                            <div class="orbit-dot"></div>
-                        </div>
-                        <div class="orbit orbit-3">
-                            <div class="orbit-dot"></div>
-                        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet the Visionaries</h2>
+                <p class="section-subtitle">The brilliant minds revolutionizing agriculture</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">👩‍🔬</div>
+                    <h3>Dr. Sarah Chen</h3>
+                    <p class="team-role">CEO & Co-Founder</p>
+                    <p class="team-bio">Former NASA botanist who grew the first plants on Mars simulation missions. PhD in Agricultural AI from MIT.</p>
+                    <div class="team-expertise">
+                        <span class="expertise-tag">AI Agriculture</span>
+                        <span class="expertise-tag">Space Farming</span>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-avatar">👨‍💻</div>
+                    <h3>Marcus Rodriguez</h3>
+                    <p class="team-role">CTO & Co-Founder</p>
+                    <p class="team-bio">Ex-Google AI researcher who developed breakthrough neural networks for environmental optimization.</p>
+                    <div class="team-expertise">
+                        <span class="expertise-tag">Neural Networks</span>
+                        <span class="expertise-tag">IoT Systems</span>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-avatar">👩‍🌾</div>
+                    <h3>Dr. Amara Okafor</h3>
+                    <p class="team-role">Head of Sustainability</p>
+                    <p class="team-bio">Leading expert in sustainable agriculture with 15 years experience in vertical farming systems.</p>
+                    <div class="team-expertise">
+                        <span class="expertise-tag">Sustainability</span>
+                        <span class="expertise-tag">Hydroponics</span>
                     </div>
                 </div>
             </div>
@@ -194,55 +338,46 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials-section">
+    <section class="testimonials-section">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">What Our Users Say</h2>
-                <p class="section-subtitle">Join thousands of satisfied developers worldwide</p>
-            </div>
+            <h2 class="section-title">What Our Partners Say</h2>
             
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"This animation framework completely transformed our user experience. The performance is incredible!"</p>
+                        <p>"NeuroGarden has completely transformed our urban food production. We're now growing fresh produce year-round in the heart of downtown."</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <div class="avatar-placeholder">JS</div>
-                        </div>
+                        <div class="author-avatar">👨‍💼</div>
                         <div class="author-info">
-                            <div class="author-name">John Smith</div>
-                            <div class="author-title">Senior Developer at TechCorp</div>
+                            <h4>James Wilson</h4>
+                            <p>Mayor of Green City</p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"The ease of integration and the quality of animations exceeded all our expectations. Highly recommended!"</p>
+                        <p>"The AI optimization is incredible. Our yields increased by 300% while using 90% less water. This is the future of farming."</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <div class="avatar-placeholder">MJ</div>
-                        </div>
+                        <div class="author-avatar">👩‍🌾</div>
                         <div class="author-info">
-                            <div class="author-name">Maria Johnson</div>
-                            <div class="author-title">UI/UX Designer at CreativeStudio</div>
+                            <h4>Lisa Park</h4>
+                            <p>Urban Farm Cooperative</p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Our conversion rates increased by 40% after implementing these animations. Simply amazing!"</p>
+                        <p>"As an investor, I've never seen technology with such potential to solve global food security. NeuroGarden is revolutionary."</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <div class="avatar-placeholder">DL</div>
-                        </div>
+                        <div class="author-avatar">👨‍💻</div>
                         <div class="author-info">
-                            <div class="author-name">David Lee</div>
-                            <div class="author-title">Product Manager at StartupXYZ</div>
+                            <h4>David Kim</h4>
+                            <p>GreenTech Ventures</p>
                         </div>
                     </div>
                 </div>
@@ -250,51 +385,35 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <!-- CTA Section -->
+    <section class="cta-section">
         <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2 class="contact-title">Ready to Get Started?</h2>
-                    <p class="contact-description">
-                        Join the animation revolution today. Get in touch with our team and discover 
-                        how we can help bring your vision to life.
-                    </p>
-                    <div class="contact-features">
-                        <div class="contact-feature">
-                            <span class="feature-check">✓</span>
-                            <span>Free 30-day trial</span>
-                        </div>
-                        <div class="contact-feature">
-                            <span class="feature-check">✓</span>
-                            <span>24/7 support</span>
-                        </div>
-                        <div class="contact-feature">
-                            <span class="feature-check">✓</span>
-                            <span>No credit card required</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Grow the Future?</h2>
+                <p class="cta-description">
+                    Join the agricultural revolution and help feed the world sustainably. 
+                    Whether you're a city planner, investor, or farming enthusiast, 
+                    NeuroGarden has a solution for you.
+                </p>
                 
-                <div class="contact-form-container">
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" class="form-input" placeholder="Your Name" required>
-                            <div class="input-line"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-input" placeholder="Your Email" required>
-                            <div class="input-line"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-input form-textarea" placeholder="Your Message" rows="4" required></textarea>
-                            <div class="input-line"></div>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">
-                            <span>Send Message</span>
-                            <div class="btn-shine"></div>
-                        </button>
-                    </form>
+                <div class="cta-options">
+                    <div class="cta-option">
+                        <h3>For Cities</h3>
+                        <p>Transform urban spaces into food production hubs</p>
+                        <button class="cta-button">Partner With Us</button>
+                    </div>
+                    
+                    <div class="cta-option">
+                        <h3>For Investors</h3>
+                        <p>Invest in the future of sustainable agriculture</p>
+                        <button class="cta-button">View Opportunities</button>
+                    </div>
+                    
+                    <div class="cta-option">
+                        <h3>For Farmers</h3>
+                        <p>Upgrade your farm with AI-powered technology</p>
+                        <button class="cta-button">Get Started</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -304,17 +423,43 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <span class="logo-text">AnimateLand</span>
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🌱</span>
+                        <span class="logo-text">NeuroGarden</span>
+                    </div>
+                    <p>Growing tomorrow's food today with AI-powered vertical farming.</p>
                 </div>
+                
                 <div class="footer-links">
-                    <a href="#" class="footer-link">Privacy Policy</a>
-                    <a href="#" class="footer-link">Terms of Service</a>
-                    <a href="#" class="footer-link">Support</a>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#careers">Careers</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <a href="#urban">Urban Farms</a>
+                        <a href="#commercial">Commercial</a>
+                        <a href="#residential">Residential</a>
+                        <a href="#research">Research</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#docs">Documentation</a>
+                        <a href="#support">Support</a>
+                        <a href="#community">Community</a>
+                        <a href="#blog">Blog</a>
+                    </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2024 AnimateLand. All rights reserved.</p>
+                <p>&copy; 2024 NeuroGarden. All rights reserved. Growing the future sustainably.</p>
             </div>
         </div>
     </footer>
